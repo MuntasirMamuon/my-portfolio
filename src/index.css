@@ -73,12 +73,13 @@ section>h2{
 .text-light{
     color: var(--color-light);
 }
-a{
+.linkStyle{
     color: var(--color-primary);
     transition: var(--transition);
+
 }
 
-a:hover{
+.linkStyle:hover{
     color: var(--color-white);
 }
 .btn{
@@ -110,7 +111,31 @@ img{
     width: 100%;
     object-fit: cover;
 }
+.card_container-style{
+    background-color: #fff;
+    width: 1000px;
+    
+    margin: auto;
+    margin-top: 200px;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
 
+}
+.card_container{
+display: flex;
+}
+.movie-heading{
+    text-align: center;
+}
+.Movie-details-rightSide{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.img-styles{
+  border-radius: 15px;
+    
+}
 
 
 
